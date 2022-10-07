@@ -1,0 +1,102 @@
+:root {
+    --main-bg-color: #e7ebec;
+    --detail-bg-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    background-color: var(--main-bg-color);
+}
+
+.dashboard-body {
+    background-color: #ffffff;
+    min-height: calc(100vh - 56px);
+}
+
+.main-heading {
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+}
+
+.post {
+    height: auto;
+    width: 600px;
+    background-color: var(--main-bg-color);
+    margin-bottom: 2px;
+    border-radius: 2px;
+}
+
+.help-and-guide-add-form{
+    height: auto;
+    width: 600px;
+    background-color: var(--main-bg-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10PX;
+}
+
+.topic {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.dropdown-menu {
+    display: block;
+}
+
+.post-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section {
+    word-break: break-all;
+}
+
+.react-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.help-and-guides{
+    margin-top: 50px;
+}
+
+.live-update {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 600px;
+    background-color: var(--main-bg-color);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.detail-wrapper{
+    display:flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 250px;
+    min-width: 250px;
+    border: 1px solid white;
+    background-color: var(--detail-bg-color);
+    border-radius: 10px;
+}
