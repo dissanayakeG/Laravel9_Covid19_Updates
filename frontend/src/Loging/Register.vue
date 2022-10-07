@@ -3,10 +3,10 @@
         <div class="sidenav">
             <div class="login-main-text">
                 <h2>
-                    TechKnow<br />
-                    Hi! Nice Day!!!
+                    Covid19<br />
+                    Updates
                 </h2>
-                <p>register from here to access.</p>
+                <p>Register from here</p>
             </div>
         </div>
         <div class="main">

@@ -5,6 +5,9 @@ import axios from 'axios'
 
 import router from './router.js'
 
+// import '../css/app.css'
+
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -46,16 +49,6 @@ store.dispatch('attempt', localStorage.getItem('token')).then(() => {
   }).$mount('#app')
 })
 
-
-// store.dispatch('attempt', localStorage.getItem('token')).then(() => {
-//     new Vue({
-//         el: '#app',
-//         router,
-//         store,
-//
-//         components: {App}
-//     });
-// });
 
 
 

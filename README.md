@@ -12,23 +12,22 @@ create new database and update .env
 
 run
 composer i
-npm i
-
 then run
 php artisan key:generate
 php artisan jwt:secret
 php artisan migrate
+php artisan serve
 
-open three new terminals in project root path
+open another terminal in project root path
+cd into frontend/
+npm i
+npm run serve
 
-run 
-php artisan serve on one terminal
-npm run watch-poll or npm run watch on one terminal
-
-run below in other terminal
+open new terminal
+run
 crontab -e
 select preferred editor (nano or vim)
-assume that you have choosen nano
+assume that you have chosen nano
 
 copy and paste below line after updating the path-to-project
 
@@ -40,5 +39,11 @@ Ctrl+x
 
 Done!
 
-Brows http://localhost:8000
+Browse http://localhost:8080 (assume npm run serve running at http://localhost:8080/)
+
+Note: assume php artisan serve running at http://localhost:8000
+Otherwise you have to update 
+below line in frontend/src/main.js
+axios.defaults.baseURL = 'http://127.0.0.1:8000/'
+
 ```
